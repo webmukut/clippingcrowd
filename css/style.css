@@ -1,0 +1,579 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/* =================================================================================================================
+nav bar part start
+=========================================================================================================================================================================================== */
+.contact li{
+    margin: 0 10px;
+}
+.contact li a{
+    color: #004364a8!important;
+    letter-spacing: 1px;
+}
+.contact li a:hover{
+    color: #004364!important;
+    transition: .3s;
+}
+.contact li a i{
+    color: #004364!important;
+    margin: 0 10px;
+}
+.navbar-brand {
+	margin-right: 4rem;
+}
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+	width: 95%;
+}
+.navbar-nav li{
+    margin: 0 20px;
+}
+.dropdown-menu ul{
+    display: flex;
+}
+
+.menu li a{
+    color: #004364a8!important;
+}
+.menu li a:hover{
+    color: #004364!important;
+}
+.service-dp {
+    position: relative;
+}
+.dp-show:hover .shw{
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
+}
+.dp-main{
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    /*! border: 2px solid #00000017; */
+    background-color: #F8F9FA;
+    box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.42);
+    z-index: 99999;
+}
+.dp-dwn {
+    display: inline-block;
+    text-align: center;
+    padding-left: 0px!important;
+    margin-bottom: 0rem;
+}
+.dp-dwn li  {
+    margin: 0 0px;
+}
+.dp-dwn li a {
+    color: #000;
+	width: 100%;
+	display: block;
+    padding: 20px 30px;
+    border-bottom: 2px solid transparent;
+}
+.dp-dwn li a:hover{
+    border-bottom: 2px solid #004364;
+    transition: .3s;
+    color: #fff;
+}
+.free-trial a{
+    color: #000!important;
+}
+/* =================================================================================================================
+OFFCANVAS PART START  
+=========================================================================================================================================================================================== */
+#mobilepart {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+.offcanvas-page{
+    width: 300px!important;
+}
+.offcanvas-menu-list ul li {
+	margin: 15px 0;
+}
+.offcanvas-menu-list ul li a{
+    color: #004364!important;
+}
+.dropdown-menu{
+    box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.18);
+}
+.offcanvas-freetrial{
+    text-align: center;
+}
+.offcanvas-freetrial a{
+    display: block;
+    background-color: #004364;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+/* =================================================================================================================
+Banner part start
+=========================================================================================================================================================================================== */
+.banr h3 {
+	font-size: 50px;
+	color: #000;
+	width: 50%;
+}
+.banr p {
+	color: #000;
+	width: 53%;
+}
+.banr a {
+	font-size: 25px;
+	background-color: #004364a8;
+	color: #fff;
+	padding: 10px 35px;
+	border-radius: 5px;
+	margin-top: 25px;
+	display: inline-block;
+}
+.banr a:hover {
+	background-color: #004364;
+    transition: .3s;
+}
+/* =================================================================================================================
+photograph part start
+=========================================================================================================================================================================================== */
+#photograph{
+    margin-top: 120px;
+}
+.photograph-img img{
+    width: 100%;
+}
+/* =================================================================================================================
+Youtube part start
+=========================================================================================================================================================================================== */
+#youtube{
+    margin: 50px 0;
+}
+.first-row{
+    border: 2px solid #000;
+}
+.right-b{
+    border-right: 2px solid #000;
+}
+.youtube-video{
+    width: 100%;
+    height: 750px;
+}
+/* =================================================================================================================
+Portfolio part start
+=========================================================================================================================================================================================== */
+#portfolio {
+	padding-top: 150px;
+}
+.portfolio-head-text{
+    text-align: center;
+    margin-bottom: 50px;
+}  
+.portfolio-head-text h2 {
+	position: relative;
+	color: #000000b8;
+    display: inline-block;
+}
+.portfolio-head-text h2::after {
+	position: absolute;
+	content: url(../images/icons/icon-1.png);
+	bottom: 12px;
+	left: -17.5%;
+	transform: translateX(-50%);
+	opacity: 0.6;
+}
+.portfolio-head-text h2::before {
+	position: absolute;
+	content: '';
+	width: 25%;
+	height: 2px;
+	background-color: #0000002e;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -10px;
+}
+.portolio-itms ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0!important;
+}
+.portolio-itms ul li {
+	margin: 30px 19px;
+	/* border: 2px solid #00000029; */
+    box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.18);
+    transition: .3s;
+}
+.portolio-itms ul li:hover {
+    box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 10px 21px -5px rgba(0,0,0,0.42);
+transition: .3s;
+}
+.portolio-itms ul li a img{
+    width: 100%;
+}
+/* ------------------  portfolio-see-more ------------------ */
+.portfolio-see-more {
+	margin-top: 40px;
+}
+.portfolio-see-more h4{
+    text-align: center;
+}
+.portfolio-see-more h4 a {
+	background-color: #004364a8;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.portfolio-see-more h4 a:hover{
+    background-color: #004364;
+    transition: .3s;
+}
+/* =================================================================================================================
+Why choose us part start
+=========================================================================================================================================================================================== */
+#choose-us{
+    margin-top: 150px;
+}
+.choseus-itms p {
+	padding: 0 65px;
+	color: #004364;
+}
+.choseus-itms h5 {
+	color: #004364;
+}
+.choseus-itms img {
+	padding: 25px 0;
+}
+/* =================================================================================================================
+pricing part start
+=========================================================================================================================================================================================== */
+.pricing-head-text{
+    text-align: center;
+    margin-bottom: 50px;
+}  
+.pricing-head-text h2 {
+	position: relative;
+	color: #000000b8;
+    display: inline-block;
+}
+.pricing-head-text h2::after {
+	position: absolute;
+	content: url(../images/icons/icon-1.png);
+	bottom: 12px;
+	left: -17.5%;
+	transform: translateX(-50%);
+	opacity: 0.6;
+}
+.pricing-head-text h2::before {
+	position: absolute;
+	content: '';
+	width: 25%;
+	height: 2px;
+	background-color: #0000002e;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -10px;
+}
+section.pricing {
+	margin-top: 150px;
+}
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    margin: 0 35px;
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  /* Hover Effects on Card */
+  /* @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  } */
+/* =================================================================================================================
+testimonial part start
+=========================================================================================================================================================================================== */
+.testimonial-head-text{
+    text-align: center;
+    margin-bottom: 50px;
+}  
+.testimonial-head-text h2 {
+	position: relative;
+	color: #000000b8;
+    display: inline-block;
+}
+.testimonial-head-text h2::after {
+	position: absolute;
+	content: url(../images/icons/icon-1.png);
+	bottom: 12px;
+	left: -17.5%;
+	transform: translateX(-50%);
+	opacity: 0.6;
+}
+.testimonial-head-text h2::before {
+	position: absolute;
+	content: '';
+	width: 25%;
+	height: 2px;
+	background-color: #0000002e;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -10px;
+}
+#testimonial {
+	margin-top: 150px;
+}
+.testimonial .slick-prev, .testimonial .slick-next {
+	opacity: 0;
+	visibility: hidden;
+}
+.testimonial{
+    position: relative;
+}
+.testimonial ul {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#testimonial [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+	cursor: pointer;
+	font-size: 5px;
+}
+#testimonial .testimonial ul li {
+	display: inline;
+	margin: 0 5px;
+	background-color: blue;
+	font-size: 3px;
+}
+#testimonial .testimonial ul li button {
+	background-color: transparent;
+	color: transparent;
+	border: none;
+	width: 13px;
+	height: 3px;
+}
+#testimonial .testimonial ul .slick-active {
+	background-color: #004364;
+	height: 68px;
+	font-size: 3px;
+}
+#testimonial .testimonial ul li {
+	display: inline;
+	margin: 0 5px;
+	background-color: #004364a8;
+	font-size: 3px;
+}
+#testimonial .slick-slide img {
+	width: 95%;
+}
+/* =================================================================================================================
+Our team part start
+=========================================================================================================================================================================================== */
+#ourteam{
+    margin-top: 150px;
+}
+#ourteam img{
+    width: 100%;
+}
+.ourteam-head-text{
+    text-align: center;
+    margin-bottom: 50px;
+}  
+.ourteam-head-text h2 {
+	position: relative;
+	color: #000000b8;
+    display: inline-block;
+}
+.ourteam-head-text h2::after {
+	position: absolute;
+	content: url(../images/icons/icon-1.png);
+	bottom: 12px;
+	left: -17.5%;
+	transform: translateX(-50%);
+	opacity: 0.6;
+}
+.ourteam-head-text h2::before {
+	position: absolute;
+	content: '';
+	width: 25%;
+	height: 2px;
+	background-color: #0000002e;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -10px;
+}
+/* =================================================================================================================
+Love part start
+=========================================================================================================================================================================================== */
+#love{
+    margin-top: 150px;
+}
+.loveforall{
+    text-align: center;
+}
+.loveforall h2{
+    margin-top: 50px;
+    color: #004364;
+}
+.loveforall p a {
+	background-color: #004364a8;
+	color: #fff;
+	padding: 15px 40px;
+	margin-top: 50px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.loveforall p a:hover{
+    background-color: #004364;
+    transition: 0.3s;
+}
+/* =================================================================================================================
+Footer part start
+=========================================================================================================================================================================================== */
+#footer {
+	margin-top: 150px;
+	background-color: #004364;
+	padding: 100px 0;
+}
+.footer-list ul, .footer-social ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+	height: 45px;
+}
+
+.footer-list ul li a, .footer-social ul li a{
+    color: #fff;
+}
+/* =================================================================================================================
+last part start
+=========================================================================================================================================================================================== */
+#attheend{
+    background-color: #004364a8;
+    padding: 10px 0;
+}
+.attheend-text{
+    text-align: center;
+}
+.attheend-text, .attheend-text a {
+	color: #ffffffb5;
+}
+/* =================================================================================================================
+Back to top button
+=========================================================================================================================================================================================== */
+#backtotop {
+	background-color: #004364;
+	padding: 15px 25px;
+	border-radius: 50px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	visibility: hidden;
+	z-index: 1000;
+	color: #fff;
+}
+  #backtotop:hover {
+    cursor: pointer;
+    background-color: #004364;
+  }
+  #bubacktotoptton:active {
+    background-color: #555;
+  }
+  #backtotop.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  @media (min-width: 500px) {
+    #backtotop {
+      margin: 30px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
