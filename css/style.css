@@ -399,7 +399,7 @@ testimonial part start
     left: 50%;
     transform: translateX(-50%);
 }
-#testimonial [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+#testimonial [type="button"]:not(:disabled), #testimonial [type="reset"]:not(:disabled), #testimonial [type="submit"]:not(:disabled), #testimonial button:not(:disabled) {
 	cursor: pointer;
 	font-size: 5px;
 }
